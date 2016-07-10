@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="FitTime">
+    <head>
+        <title>FitTime App</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <header>
+            <ft-main-menu></ft-main-menu> 
+        </header>
+        <div class="content-wrapper">
+            <div ng-view></div>
+        </div>        
+        <!-- Libs -->
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="node_modules/angular/angular.min.js"></script>
+        <script src="node_modules/angular-route/angular-route.min.js"></script> 
+        <script src="node_modules/angular-resource/angular-resource.min.js"></script> 
+        
+        <!-- APP JS -->
+        <script src="app.js"></script>
+        <script src="routes.js"></script>        
+
+        <!-- Controllers -->
+        
+        <!-- Directives -->
+        <script src="js/directives/ft-main-menu.js"></script>
+        <script src="js/directives/ft-user-login.js"></script>
+
+        <!-- Services -->
+    </body>
+</html>
