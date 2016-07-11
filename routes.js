@@ -10,6 +10,10 @@ angular.module('FitTime')
                 templateUrl: 'templates/pages/user/login.html'  
             })
             
+            .when('/user-signup', {
+                templateUrl: 'templates/pages/user/signup.html'
+            })
+            
             .when('/user', {
                 templateUrl: 'templates/pages/user/index.html'
             });

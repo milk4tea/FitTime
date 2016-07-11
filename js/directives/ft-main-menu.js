@@ -8,10 +8,10 @@ angular.module('FitTime')
     },
     templateUrl: "templates/directives/ft-main-menu.html",
     link: function(scope, element) {
-        element.on('click', '.sign-in-btn', function(e) {
-           e.preventDefault();
-           $location.url('/user-login');
-        });
+//        element.on('click', '.sign-in-btn', function(e) {
+//           e.preventDefault();
+//           $location.url('/user-login');
+//        });
     }
   };
 });

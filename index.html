@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="FitTime">
+<html lang="en" ng-app="FitTime" manifest="manifest.appcache">
     <head>
         <title>FitTime App</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
-        <header>
+        <nav class="navbar navbar-default navbar-static-top main-menu">
             <ft-main-menu></ft-main-menu> 
-        </header>
+        </nav>
         <div class="content-wrapper">
             <div ng-view></div>
         </div>        
